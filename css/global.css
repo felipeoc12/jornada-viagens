@@ -43,10 +43,17 @@ body {
   color: var(--text-primary-color);
 }
 
+h4{
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  color: var(--text-primary-color);
+}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
   margin: 0;
+  padding: 0 24px;
   text-align: center;
 }
 
