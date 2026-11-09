@@ -1,0 +1,22 @@
+.pre-footer {
+  height: 400px;
+  width: 100%;
+  background: url(../img/pre-footer-mobile.png) no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .pre-footer {
+    background: url(../img/pre-footer-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .pre-footer {
+    height: 600px;
+    background: url(../img/pre-footer-desktop.png) no-repeat;
+    background-size: cover;
+  }
+}

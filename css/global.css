@@ -43,7 +43,7 @@ body {
   color: var(--text-primary-color);
 }
 
-h4 {
+h3 {
   font-size: 28px;
   font-weight: var(--title-weight);
   color: var(--text-primary-color);
