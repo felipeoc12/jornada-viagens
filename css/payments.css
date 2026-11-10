@@ -26,6 +26,42 @@
   grid-column: span 2;
 }
 
+/* PACOTES DE VIAGEM */
+
+.travel-packages.content-container .content-title {
+  font-size: 40px;
+  line-height: 1em;
+  font-weight: var(--title-weight);
+}
+
+.travel-packages.content-container .content-second-title {
+  font-size: 28px;
+  line-height: 1em;
+  font-weight: var(--title-weight);
+}
+
+.travel-packages.content-container .button {
+  margin-top: 24px;
+}
+
+.travel-packages.content-container .image-gallery .image.first {
+  background: url(../img/travel-packages/japan-gallery1-mobile.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.travel-packages.content-container .image-gallery .image.second {
+  background: url(../img/travel-packages/japan-gallery2-mobile.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.travel-packages.content-container .image-gallery .image.third {
+  background: url(../img/travel-packages/japan-gallery3-mobile.png) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
     background: url(../img/gallery1-tablet.png) no-repeat;
@@ -38,6 +74,25 @@
   .payments .content-container .image-gallery .image.third {
     background: url(../img/gallery3-tablet.png) no-repeat;
     background-size: cover;
+  }
+  /* PACOTES DE VIAGEM */
+  .travel-packages.content-container .image-gallery .image.first {
+    background: url(../img/travel-packages/japan-gallery1-tablet.png) no-repeat;
+    background-size: cover;
+    height: 254px;
+  }
+  .travel-packages.content-container .image-gallery .image.second {
+    background: url(../img/travel-packages/japan-gallery2-tablet.png) no-repeat;
+    background-size: cover;
+    height: 254px;
+  }
+  .travel-packages.content-container .image-gallery .image.third {
+    background: url(../img/travel-packages/japan-gallery3-tablet.png) no-repeat;
+    background-size: cover;
+    height: 182px;
+  }
+  .travel-packages.content-container .button {
+    display: none;
   }
 }
 
@@ -52,5 +107,26 @@
   .payments .content-container .image-gallery {
     width: 790px;
     margin: 0;
+  }
+  /* PACOTES DE VIAGEM */
+  .travel-packages.content-container .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .travel-packages.content-container .image-gallery .image.first {
+    background: url(../img/travel-packages/japan-gallery1-desktop.png) no-repeat;
+    background-size: cover;
+    height: 254px;
+  }
+  .travel-packages.content-container .image-gallery .image.second {
+    background: url(../img/travel-packages/japan-gallery2-desktop.png) no-repeat;
+    background-size: cover;
+    height: 254px;
+  }
+  .travel-packages.content-container .image-gallery .image.third {
+    background: url(../img/travel-packages/japan-gallery3-desktop.png) no-repeat;
+    background-size: cover;
+    height: 182px;
   }
 }
