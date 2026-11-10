@@ -79,6 +79,16 @@
   .hero h2 {
     padding: 88px 120px;
   }
+  /* PACOTES DE VIAGEM */
+  .travel-packages.hero-img{
+    background-position: center;
+  }
+  .travel-packages .hero-content{
+    padding: 158px 0 0 120px;
+  }
+  .travel-packages .hero-content p {
+    max-width: 580px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
